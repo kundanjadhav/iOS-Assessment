@@ -12,6 +12,7 @@
 		0CAC50632176135A0067BEAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAC50612176135A0067BEAF /* Main.storyboard */; };
 		0CAC50652176135B0067BEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAC50642176135B0067BEAF /* Assets.xcassets */; };
 		0CAC50682176135B0067BEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAC50662176135B0067BEAF /* LaunchScreen.storyboard */; };
+		0CAC50702176176E0067BEAF /* WebServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAC506F2176176E0067BEAF /* WebServiceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0CAC50642176135B0067BEAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CAC50672176135B0067BEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CAC50692176135B0067BEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CAC506F2176176E0067BEAF /* WebServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0CAC505D2176135A0067BEAF /* AppDelegate.swift */,
 				0CAC505F2176135A0067BEAF /* ViewController.swift */,
+				0CAC506F2176176E0067BEAF /* WebServiceController.swift */,
 				0CAC50612176135A0067BEAF /* Main.storyboard */,
 				0CAC50642176135B0067BEAF /* Assets.xcassets */,
 				0CAC50662176135B0067BEAF /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CAC50702176176E0067BEAF /* WebServiceController.swift in Sources */,
 				0CAC50602176135A0067BEAF /* ViewController.swift in Sources */,
 				0CAC505E2176135A0067BEAF /* AppDelegate.swift in Sources */,
 			);
