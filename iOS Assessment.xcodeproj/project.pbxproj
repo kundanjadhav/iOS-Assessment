@@ -10,6 +10,7 @@
 		0C40991F21772E9400D7BC26 /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C40991E21772E9400D7BC26 /* ArticleDetailsViewController.swift */; };
 		0C409921217737C600D7BC26 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C409920217737C600D7BC26 /* Utils.swift */; };
 		0C4099232177399800D7BC26 /* reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4099222177399800D7BC26 /* reachability.swift */; };
+		0C52AB2D21773F7F004BB236 /* iOS_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C52AB2C21773F7F004BB236 /* iOS_AssessmentTests.swift */; };
 		0CAC505E2176135A0067BEAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAC505D2176135A0067BEAF /* AppDelegate.swift */; };
 		0CAC50602176135A0067BEAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAC505F2176135A0067BEAF /* ViewController.swift */; };
 		0CAC50632176135A0067BEAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAC50612176135A0067BEAF /* Main.storyboard */; };
@@ -20,10 +21,23 @@
 		278AC2DA21763E90002A4BB7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AC2D921763E90002A4BB7 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0C52AB2F21773F7F004BB236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CAC50522176135A0067BEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CAC50592176135A0067BEAF;
+			remoteInfo = "iOS Assessment";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0C40991E21772E9400D7BC26 /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
 		0C409920217737C600D7BC26 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		0C4099222177399800D7BC26 /* reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reachability.swift; sourceTree = "<group>"; };
+		0C52AB2A21773F7E004BB236 /* iOS AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C52AB2C21773F7F004BB236 /* iOS_AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_AssessmentTests.swift; sourceTree = "<group>"; };
+		0C52AB2E21773F7F004BB236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CAC505A2176135A0067BEAF /* iOS Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAC505D2176135A0067BEAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CAC505F2176135A0067BEAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +51,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C52AB2721773F7E004BB236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CAC50572176135A0067BEAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,10 +68,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C52AB2B21773F7E004BB236 /* iOS AssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C52AB2C21773F7F004BB236 /* iOS_AssessmentTests.swift */,
+				0C52AB2E21773F7F004BB236 /* Info.plist */,
+			);
+			path = "iOS AssessmentTests";
+			sourceTree = "<group>";
+		};
 		0CAC50512176135A0067BEAF = {
 			isa = PBXGroup;
 			children = (
 				0CAC505C2176135A0067BEAF /* iOS Assessment */,
+				0C52AB2B21773F7E004BB236 /* iOS AssessmentTests */,
 				0CAC505B2176135A0067BEAF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				0CAC505A2176135A0067BEAF /* iOS Assessment.app */,
+				0C52AB2A21773F7E004BB236 /* iOS AssessmentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +117,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0C52AB2921773F7E004BB236 /* iOS AssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C52AB3321773F7F004BB236 /* Build configuration list for PBXNativeTarget "iOS AssessmentTests" */;
+			buildPhases = (
+				0C52AB2621773F7E004BB236 /* Sources */,
+				0C52AB2721773F7E004BB236 /* Frameworks */,
+				0C52AB2821773F7E004BB236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C52AB3021773F7F004BB236 /* PBXTargetDependency */,
+			);
+			name = "iOS AssessmentTests";
+			productName = "iOS AssessmentTests";
+			productReference = 0C52AB2A21773F7E004BB236 /* iOS AssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0CAC50592176135A0067BEAF /* iOS Assessment */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CAC506C2176135B0067BEAF /* Build configuration list for PBXNativeTarget "iOS Assessment" */;
@@ -112,6 +162,10 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Quick Heal Technologies Ltd";
 				TargetAttributes = {
+					0C52AB2921773F7E004BB236 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 0CAC50592176135A0067BEAF;
+					};
 					0CAC50592176135A0067BEAF = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -131,11 +185,19 @@
 			projectRoot = "";
 			targets = (
 				0CAC50592176135A0067BEAF /* iOS Assessment */,
+				0C52AB2921773F7E004BB236 /* iOS AssessmentTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C52AB2821773F7E004BB236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CAC50582176135A0067BEAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,6 +211,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0C52AB2621773F7E004BB236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C52AB2D21773F7F004BB236 /* iOS_AssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CAC50562176135A0067BEAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -165,6 +235,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C52AB3021773F7F004BB236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CAC50592176135A0067BEAF /* iOS Assessment */;
+			targetProxy = 0C52AB2F21773F7F004BB236 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0CAC50612176135A0067BEAF /* Main.storyboard */ = {
@@ -186,6 +264,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0C52AB3121773F7F004BB236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37GX2W9H8J;
+				INFOPLIST_FILE = "iOS AssessmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdm.cloud.client.iOS-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Assessment.app/iOS Assessment";
+			};
+			name = Debug;
+		};
+		0C52AB3221773F7F004BB236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37GX2W9H8J;
+				INFOPLIST_FILE = "iOS AssessmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdm.cloud.client.iOS-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Assessment.app/iOS Assessment";
+			};
+			name = Release;
+		};
 		0CAC506A2176135B0067BEAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -341,6 +459,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C52AB3321773F7F004BB236 /* Build configuration list for PBXNativeTarget "iOS AssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C52AB3121773F7F004BB236 /* Debug */,
+				0C52AB3221773F7F004BB236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0CAC50552176135A0067BEAF /* Build configuration list for PBXProject "iOS Assessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
